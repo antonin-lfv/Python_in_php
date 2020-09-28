@@ -20,12 +20,3 @@ def courbe(x1,x2,x3,x4):
 print(courbe(int(args["parameter"]),int(args["other"]),int(args["other1"]),int(args["other2"])))
 
 
-# dans le terminal :
-# pip3 install matplotlib
-# brew install python matplotlib
-# pour installer les packages avec php et pouvoir les installer
-
-# pour afficher les packages dans php :
-# $output2 = shell_exec("pip3 list | grep numpy");
-# echo $output2;
-
