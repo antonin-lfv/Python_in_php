@@ -47,7 +47,7 @@ $x4 = (int) $_GET["x4"];
 
 <?php  /* résultat de la fonction tracée*/
 
-$output1 = shell_exec("python3 /Users/antoninlefevre/Downloads/langages_informatiques/Python/Projets/python_in_php/python_in_php/courbe_trace/courbe_trace.py -p ".$x1." -o ".$x2." -s ".$x3." -d ".$x4);
+$output1 = shell_exec("python3 your_path/courbe_trace.py -p ".$x1." -o ".$x2." -s ".$x3." -d ".$x4);
 
 ?>
 <br>
